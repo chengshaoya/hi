@@ -1,0 +1,37 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Aservlet</servlet-name>
+  	<display-name>Aservlet</display-name>
+  	<description></description>
+  	<servlet-class>servlet.Aservlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>aa</servlet-name>
+  	<display-name>aa</display-name>
+  	<description></description>
+  	<servlet-class>servlet.aa</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>gg</servlet-name>
+  	<display-name>gg</display-name>
+  	<description></description>
+  	<servlet-class>servlet.gg</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Aservlet</servlet-name>
+  	<url-pattern>/aservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>aa</servlet-name>
+  	<url-pattern>/aa</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>gg</servlet-name>
+  	<url-pattern>/gg</url-pattern>
+  </servlet-mapping>
+</web-app>
